@@ -10,8 +10,7 @@ app = FastAPI()
 
 
 origins = [
-    #cuando hayas hecho el deploy, agrega la url del deploy a esta lista
-    #"https://deployURLexample.com",
+    "https://moviesapp-oxeinkhcia-uc.a.run.app",
     "http://localhost",
     "http://localhost:8000",
 ]
